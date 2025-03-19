@@ -1,0 +1,80 @@
+/* *{ 
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.personal{
+    background-image: url(abstract-fluid-neon-color-3d-effect-business-background-banner-design-multipurpose_1340-16790.avif);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+span{
+    color: rgb(183, 11, 125);
+}
+#text{
+    color: whitesmoke;
+    align-items:center;
+    justify-content: center;
+}*/
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 20px;
+}
+
+.personal {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+}
+
+#text img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #04759a;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .personal {
+        max-width: 90%;
+    }
+}
